@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./lib/scraper.js",
-    "cluster": "node ./lib/clusterscraper.js"
+    "cluster": "node ./lib/clusterscraper.js",
+    "dev": "nodemon ./lib/scraper.js"
   },
   "author": "ChauNNT",
   "license": "ISC",
@@ -26,5 +27,8 @@
     "pm2": "^3.5.1",
     "request": "^2.87.0",
     "string_decoder": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
